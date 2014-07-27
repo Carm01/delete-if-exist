@@ -33,6 +33,7 @@ ElseIf FileExists ( "C:\Windows\Prefetch\dllhost*.pf" ) Then
 ElseIf FileExists ( "C:\Windows\Prefetch\SILVERLIGHT*.pf" ) Then
 	FileDelete ( "C:\Windows\Prefetch\SILVERLIGHT*.pf" )
 	EndIf
+	sleep(100)
 WEnd
 ; http://www.autoitscript.com/forum/topic/76525-if-statement-in-readline-loop-infinite-loop/
 ; http://www.autoitscript.com/autoit3/docs/keywords/IfElseEndIf.htm
