@@ -11,7 +11,7 @@
 #AutoIt3Wrapper_Res_Fileversion=1.1.0.0
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
  While 1
-	 GUIGetMsg()
+	 GUIGetMsg();prevents high cpu usage
  If FileExists ( "C:\Windows\Prefetch\PLUGIN-CONTAINER*.pf" ) Then
 	FileDelete("C:\Windows\Prefetch\PLUGIN-CONTAINER*.pf")
 
